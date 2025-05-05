@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ngopikeun Broo</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="img/favicon.ico"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+	<!--Bagian Header-->
+	<header class="header">
+		<section class="flex">
+			<a href="#home" class="logo"><img src="img/logo.png" alt=""></a>
+			<nav class="navbar">
+				<a href="index.html">Beranda</a>
+				<a href="tentang.html">Tentang</a>
+				<a href="menu.html">Menu</a>
+				<a href="galeri.html">Galeri</a>
+				<a href="kontak.html">Kontak</a>
+			</nav>
+			<div id="menu-btn" class="fas fa-bars"></div>
+		</section>
+	</header>
+
+	<!--Bagian Beranda-->
+	<div class="home-bg">
+		<section class="home" id="home">
+			<div class="content">
+				<h3>Ngopikeun Broo</h3>
+				<p>Siapa yang tidak suka aku, pergi cari temanmu saja! Dunia ini terlalu cepat berlalu, ayo nikmati secangkir kopi!</p>
+				<a href="#about" class="btn">Tentang Kami</a>
+			</div>
+		</section>
+	</div>
+
+	<!--Bagian Tentang (oleh ardiansya)-->
+	<section class="about" id="about">
+		<div class="image slide-left">
+			<div class="image">
+				<img src="img/icon-about.png" alt="">
+			</div>
+		</div>
+		<div class="content slide-right">
+			<div class="content">
+				<h3>Secangkir kopi bisa menyempurnakan harimu BROOOO!</h3>
+				<p>Kopi dengan susu, rasa dan aroma surgawi. Nikmati harimu dengan secangkir kopi terbaik dari kami. Kalau dunia terasa berat, secangkir kopi bisa jadi obatnya!</p>
+				<a href="#menu" class="btn">Lihat Menu Kami</a>
+			</div>
+		</div>
+	</section>
+
+	<!--Bagian Menu (oleh oci)-->
+	<section class="menu" id="menu">
+		<div class="heading">
+			<img src="img/heading-img.png" alt="">
+			<h3>Menu Populer</h3>
+		</div>
+		<div class="box-container">
+			<div class="box">
+				<img src="img/menu-1.png" alt="">
+				<h3>Aku cinta kopi</h3>
+			</div>
+			<div class="box">
+				<img src="img/menu-2.png" alt="">
+				<h3>Cappuccino</h3>
+			</div>
+			<div class="box">
+				<img src="img/menu-3.png" alt="">
+				<h3>Kopi Mocha</h3>
+			</div>
+			<div class="box">
+				<img src="img/menu-4.png" alt="">
+				<h3>Frappuccino</h3>
+			</div>
+			<div class="box">
+				<img src="img/menu-5.png" alt="">
+				<h3>Kopi Hitam</h3>
+			</div>
+			<div class="box">
+				<img src="img/menu-6.png" alt="">
+				<h3>Kopi dari Hati</h3>
+			</div>
+		</div>
+	</section>
+
+	<!--Bagian Galeri(oleh andhika)-->
+	<section class="gallery" id="gallery">
+		<div class="heading">
+			<img src="img/heading-img.png" alt="">
+			<h3>Galeri Kami</h3>
+		</div>
+		<div class="box-container">
+			<img src="img/gallery-1.webp" alt="">
+			<img src="img/gallery-2.webp" alt="">
+			<img src="img/gallery-3.webp" alt="">
+			<img src="img/gallery-4.webp" alt="">
+			<img src="img/gallery-5.webp" alt="">
+			<img src="img/gallery-6.webp" alt="">
+		</div>
+	</section>
+
+	<!--Bagian Kontak (oleh candra)-->
+	<section class="contact" id="contact">
+		<div class="heading">
+			<img src="img/heading-img.png" alt="">
+			<h3>Kontak Kami</h3>
+		</div>
+		<div class="row">
+			<div class="content slide-right">
+				<div class="image">
+					<img src="img/icon.png" alt="">
+				</div>
+			</div>	
+			<div class="map-responsive">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5111.09843944591!2d107.609905176045!3d-6.8939103674645645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e650e167c1ab%3A0xdcc35bc2a4e6d1b1!2sOne%20Eighty%20Coffee%20and%20Music!5e1!3m2!1sid!2sid!4v1746108120808!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			<form action="" method="post">
+				<h3>Reservasi Meja</h3>
+				<input type="text" name="name" required class="box" maxlength="20" placeholder="Masukkan Nama Anda">
+				<input type="number" name="number" required class="box" maxlength="20" placeholder="Masukkan Nomor Anda" min="0" max="9999999999" onkeypress="if(this.value.length == 10) return false">
+				<input type="number" name="guests" required class="box" maxlength="20" placeholder="Jumlah Tamu" min="0" max="99" onkeypress="if(this.value.length == 2) return false">
+				<input type="submit" name="send" value="Kirim Pesan" class="btn">
+			</form>
+		</div>
+	</section>
+
+	<!--Bagian Footer-->
+	<section class="footer">
+		<div class="credit"> &copy; Hak Cipta @ 2025 Oleh <span>Ardiansya Pambudi</span> | Semua Hak Dilindungi!</div>
+	</section>
+	<script src="js/script.js"></script>
+</body>
+</html>

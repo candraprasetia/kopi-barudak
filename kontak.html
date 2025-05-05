@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ngopikeun Broo</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+
+	<!--Bagian Header-->
+	<header class="header">
+		<section class="flex">
+			<a href="#home" class="logo"><img src="img/logo.png" alt=""></a>
+			<nav class="navbar">
+				<a href="index.html">Beranda</a>
+				<a href="tentang.html">Tentang</a>
+				<a href="menu.html">Menu</a>
+				<a href="galeri.html">Galeri</a>
+				<a href="kontak.html">Kontak</a>
+			</nav>
+			<div id="menu-btn" class="fas fa-bars"></div>
+		</section>
+	</header>
+
+	<!--Banner kontak-->
+	<div class="banner">
+		<img src="/img/banner-halaman.jpg" alt="Banner">
+		<div class="banner-text">
+			<h1>Selamat Datang di Ngopikeun Broo</h1>
+		</div>
+	</div>
+
+	<!--Bagian Kontak-->
+	<section class="contact" id="contact">
+		<div class="heading">
+			<img src="img/heading-img.png" alt="">
+			<h3>Kontak Kami</h3>
+		</div>
+		<div class="row">
+			<div class="content slide-right">
+				<div class="image-kontak">
+					<img src="img/icon.png" alt="">
+				</div>
+			</div>
+			<div class="map-responsive">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5111.09843944591!2d107.609905176045!3d-6.8939103674645645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e650e167c1ab%3A0xdcc35bc2a4e6d1b1!2sOne%20Eighty%20Coffee%20and%20Music!5e1!3m2!1sid!2sid!4v1746108120808!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			<form action="" method="post">
+				<h3>Reservasi Meja</h3>
+				<input type="text" name="name" required class="box" maxlength="20" placeholder="Masukkan Nama Anda">
+				<input type="number" name="number" required class="box" maxlength="20" placeholder="Masukkan Nomor Anda"
+					min="0" max="9999999999" onkeypress="if(this.value.length == 10) return false">
+				<input type="number" name="guests" required class="box" maxlength="20" placeholder="Jumlah Tamu" min="0"
+					max="99" onkeypress="if(this.value.length == 2) return false">
+				<input type="submit" name="send" value="Kirim Pesan" class="btn">
+			</form>
+		</div>
+	</section>
+	<section class="footer">
+		<div class="credit"> &copy; Hak Cipta @ 2025 Oleh <span>Ardiansya Pambudi</span> | Semua Hak Dilindungi!</div>
+	</section>
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
