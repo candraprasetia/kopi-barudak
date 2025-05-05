@@ -145,7 +145,7 @@ section {
 
 /* Home Section */
 .home-bg {
-    background: linear-gradient(90deg, #ffffff, transparent 70%), url(../img/bg-home.jpg) no-repeat;
+    background: linear-gradient(90deg, #ffffff, transparent 70%), url(img/bg-home.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
