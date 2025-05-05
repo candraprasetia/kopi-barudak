@@ -141,6 +141,7 @@ section {
 .banner-text h1 {
     font-size: 70px;
     margin: 0;
+    font-family: 'Merienda One', cursive;
 }
 
 /* Home Section */
@@ -438,6 +439,11 @@ section {
 
     .about .content h3 {
         font-size: 3rem;
+    }
+
+    .banner-text h1 {
+        font-size: 17px;
+        font-family: 'Merienda One', cursive;
     }
 }
 
