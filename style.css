@@ -445,6 +445,33 @@ section {
         font-size: 17px;
         font-family: 'Merienda One', cursive;
     }
+
+    .slide-left,
+    .slide-right {
+        opacity: -2;
+        transition: all 1.5s ease;
+    }
+
+    .slide-left {
+        transform: translateX(-16px);
+    }
+
+    .slide-right {
+        transform: translateX(16px);
+    }
+
+    .show {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .about .image img {
+        width: 80%;
+    }
+    
+    .about .image {
+        text-align: center;
+    }
 }
 
 @media (max-width: 450px) {
